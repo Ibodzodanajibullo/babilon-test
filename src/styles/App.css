@@ -1,0 +1,297 @@
+.header {
+    border-bottom: 1px solid;
+}
+
+.navbar {
+    color: rgb(12, 10, 10);
+    width: 100%;
+    height: 70px;
+
+
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    color: rgb(133, 133, 133);
+    align-items: center;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: rgba(16, 13, 13, 0.91);
+}
+
+.navbar-menu li a:hover {
+    opacity: 10;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+    margin: 15px 15px 15px 350px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgba(19, 16, 16, 0.85);
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+
+}
+
+.footer__adr {
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.footer__logo {
+
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+}
+
+.footer__adr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav__title {
+    font-weight: bold;
+
+}
+
+.footer address {
+    font-style: normal;
+
+}
+
+.footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer__nav {
+    display: flex;
+
+}
+
+.footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+        flex: 1;
+    }
+}
+
+.nav__ul a {
+    color: #070505;
+}
+
+.elegance {
+    display: flex;
+}
+
+.border {
+    border-bottom: solid 1px black;
+    width: 35vw;
+    margin-right: auto;
+}
+
+.border1 {
+    border-bottom: solid 1px black;
+    width: 35vw;
+    margin-left: auto;
+}
+
+.shirt1 {
+    border: 1px solid;
+    margin-top: 22%;
+
+}
+
+.shirt2 {
+    border: 1px solid;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+.choice {
+    font-weight: bold;
+    margin-left: 10%;
+    padding: 20px 20px 20px 20px;
+}
+
+.h1 {
+    margin-top: 3%;
+    margin-left: 40px;
+    padding: 30px 30px 30px 30px;
+}
+
+.things {
+    display: flex;
+    margin-top: 5%;
+}
+
+.hodDies {
+    display: flex;
+    margin-left: 30px;
+}
+
+.paragraph {
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+h3 {
+    padding: 20px;
+}
+
+.collection {
+    display: flex;
+}
+
+.separator {
+    border: 1px solid;
+    margin-top: 10%;
+}
+
+.ahaz {
+    text-align: center;
+}
+
+.par {
+    display: flex;
+    margin-left: 50px;
+}
+
+.design {
+    text-align: center;
+    display: flex;
+}
+
+
+.butt {
+    border-radius: 12px;
+    color: azure;
+    background-color: black;
+}
+
+.separator1 {
+    margin-top: 10%;
+    border-bottom: 2px solid;
+}
+
+.video {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.lists {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #070505;
+    color: azure;
+}
+
+.shirts8 {
+
+}
+
+.news {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 200px;
+}
+.end {
+    padding: 100px;
+}
+
+.social {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: -6px;
+}
+
+.price {
+    position: relative;
+    margin: 40px;
+}
+
+.cost {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.cost1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.cart{
+    margin-top: 15px;
+    margin-left:600px ;
+
+}

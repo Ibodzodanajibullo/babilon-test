@@ -22,8 +22,8 @@ const Main = () => {
                 </div>
                 <img className="shirt2" src={ojam} width="400px" height="450px"/>
             </div>
-            <div style={ {display: 'flex'} }>
-                <div className="border" >
+            <div className="naj">
+                <div className="najm" >
                 </div>
                 <div className="social">
                 <span style={{padding:'10px'}}>•Facebook</span>

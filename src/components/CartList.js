@@ -57,7 +57,6 @@ function CartList() {
                                 >
                                     Clear Cart
                                 </button>
-                                <button className="btn btn-primary ml-2">CheckOut</button>
                             </div>
                         </div>
                         {/* filter section */}

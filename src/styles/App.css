@@ -13,19 +13,6 @@
     font-family: sans-serif;
     text-align: center;
 }
-
-.navbar .containe {
-    height: inherit;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-menu {
-    color: rgb(133, 133, 133);
-    align-items: center;
-}
-
 .navbar-menu li {
     display: inline-block;
 }

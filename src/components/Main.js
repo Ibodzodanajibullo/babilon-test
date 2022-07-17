@@ -67,7 +67,7 @@ const Main = () => {
             </div>
             <div className="feature">
                 <h1>Featured Collections</h1>
-                <p>lorem ipsum dolor sit amet, consectetur adipiscing <elit className=""></elit>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing
                     Viverra morbi cras auque egastas<br/> distum habitasse.
                     lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Viverra morbi<br/> cras auqueegastas distum habitasse</p>

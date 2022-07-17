@@ -15,18 +15,13 @@ import shirts9 from '../assets/shirts9.jpg'
 
  const data = [
 
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
-    {title: 'shirts', image: shirts,price:199},
+    {title: 'shirts', image: shirts3,price:199},
+    {title: 'shirts', image: shirts3,price:199},
+    {title: 'shirts', image: shirts3,price:199},
+    {title: 'shirts', image: shirts3,price:199},
+    {title: 'shirts', image: shirts3,price:199},
+    {title: 'shirts', image: shirts3,price:199},
+
 
  ]
 

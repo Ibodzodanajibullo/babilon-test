@@ -1,3 +1,6 @@
+
+@import '~antd/dist/antd.css';
+
 .header {
     border-bottom: 1px solid;
 }
@@ -288,7 +291,7 @@ h3 {
 .cart{
     height: 40px;
     margin-top: 10px;
-    margin-left:600px ;
+    margin-left:550px ;
 }
 .cart:hover{
     opacity:0.5 ;
@@ -297,4 +300,7 @@ h3 {
 .najj{
     width: 50px;
     height: 50px;
+}
+.cart-item-image{
+    width: 50px;
 }

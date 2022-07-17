@@ -6,7 +6,7 @@ function Filter({ data, countBtn }) {
             {data.map((item, index) => {
                 return (
                     <div className={`col-sm-4 mb-3 ${item.text}`} key={index}>
-                        <img src={item.image} className="img-fluid" alt="" />
+                        <img src={item.image} alt="" />
 
                         <div className="d-flex mt-2">
                             <h3>{item.text}</h3>

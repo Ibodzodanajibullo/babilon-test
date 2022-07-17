@@ -27,18 +27,18 @@ function CartList() {
                 </div>
             </div>
 
-            <div className="row no-gutters">
-                <div className="container">
-                    <div className="col-sm-12">
+            <div>
+                <div>
+                    <div>
                         {/* cart item lists */}
                         <div className="w-50 text-left">
                             <h3>Cart Lists</h3>
-                            {cartLists.map(({ image, price, text }, index) => (
+                            {cartLists.map(({image, price, text}, index) => (
                                 <div
                                     key={`${text}-${index}`}
                                     className="d-flex justify-content-between mb-3"
                                 >
-                                    <img alt={image} src={image} className="w-25" />
+                                    <img alt={image} src={image} className="w-25"/>
                                     <div className="d-flex mt-2 flex-column">
                                         <h3>{text}</h3>
                                         <h3 className="ml-auto price">${price}</h3>
@@ -48,7 +48,7 @@ function CartList() {
                             ))}
 
                             <h3>
-                                Total $<span className="totalprice2">{price}</span>
+                                Total $<span className="">{price}</span>
                             </h3>
                             <div className="d-flex my-3">
                                 <button
@@ -61,7 +61,7 @@ function CartList() {
                         </div>
                         {/* filter section */}
                         <div className="row mt-3">
-                            <Filter data={data} countBtn={addToCart} />
+                            <Filter data={data} countBtn={addToCart}/>
                         </div>
                     </div>
                 </div>
